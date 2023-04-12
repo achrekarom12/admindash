@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsCurrencyDollar } from 'react-icons/bs';
+import { BiRupee } from 'react-icons/bi';
 import { GoPrimitiveDot } from 'react-icons/go';
 import { IoIosMore } from 'react-icons/io';
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
@@ -21,18 +21,18 @@ const Ecommerce = () => {
   return (
     <div className="mt-24">
       <div className="flex flex-wrap lg:flex-nowrap justify-center ">
-        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center">
+        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 ">
           <div className="flex justify-between items-center">
             <div>
-              <p className="font-bold text-gray-400">Earnings</p>
-              <p className="text-2xl">$63,448.78</p>
+              <p className="font-bold text-black">Earnings</p>
+              <p className="text-2xl">₹63,448.78</p>
             </div>
             <button
               type="button"
               style={{ backgroundColor: currentColor }}
               className="text-2xl opacity-0.9 text-white hover:drop-shadow-xl rounded-full  p-4"
             >
-              <BsCurrencyDollar />
+              <BiRupee />
             </button>
           </div>
           <div className="mt-6">
@@ -89,7 +89,7 @@ const Ecommerce = () => {
             <div className=" border-r-1 border-color m-4 pr-10">
               <div>
                 <p>
-                  <span className="text-3xl font-semibold">$93,438</span>
+                  <span className="text-3xl font-semibold">₹93,438</span>
                   <span className="p-1.5 hover:drop-shadow-xl cursor-pointer rounded-full text-white bg-green-400 ml-3 text-xs">
                     23%
                   </span>
@@ -97,7 +97,7 @@ const Ecommerce = () => {
                 <p className="text-gray-500 mt-1">Budget</p>
               </div>
               <div className="mt-8">
-                <p className="text-3xl font-semibold">$48,487</p>
+                <p className="text-3xl font-semibold">₹48,487</p>
 
                 <p className="text-gray-500 mt-1">Expense</p>
               </div>
@@ -128,7 +128,7 @@ const Ecommerce = () => {
               <p className="font-semibold text-white text-2xl">Earnings</p>
 
               <div>
-                <p className="text-2xl text-white font-semibold mt-8">$63,448.78</p>
+                <p className="text-2xl text-white font-semibold mt-8">₹63,448.78</p>
                 <p className="text-gray-200">Monthly revenue</p>
               </div>
             </div>
@@ -140,7 +140,7 @@ const Ecommerce = () => {
 
           <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl md:w-400 p-8 m-3 flex justify-center items-center gap-10">
             <div>
-              <p className="text-2xl font-semibold ">$43,246</p>
+              <p className="text-2xl font-semibold ">₹43,246</p>
               <p className="text-gray-400">Yearly sales</p>
             </div>
 
@@ -241,7 +241,7 @@ const Ecommerce = () => {
         </div>
         <div className="w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
           <div className="flex justify-between">
-            <p className="text-xl font-semibold">MedicalPro Branding</p>
+            <p className="text-xl font-semibold">Something Cool is happening!</p>
             <button type="button" className="text-xl font-semibold text-gray-400">
               <IoIosMore />
             </button>
@@ -286,7 +286,7 @@ const Ecommerce = () => {
               <Button
                 color="white"
                 bgColor={currentColor}
-                text="Add"
+                text="Add Record"
                 borderRadius="10px"
               />
             </div>
@@ -308,8 +308,8 @@ const Ecommerce = () => {
               alt=""
             />
             <div className="mt-8">
-              <p className="font-semibold text-lg">React 18 coming soon!</p>
-              <p className="text-gray-400 ">By Johnathan Doe</p>
+              <p className="font-semibold text-lg">Admin React Panel</p>
+              <p className="text-gray-400 ">By Dinesh Shinde</p>
               <p className="mt-8 text-sm text-gray-400">
                 This will be the small description for the news you have shown
                 here. There could be some great info.

@@ -2,7 +2,7 @@ import React from 'react';
 import { AiOutlineCalendar, AiOutlineShoppingCart, AiOutlineAreaChart, AiOutlineBarChart, AiOutlineStock } from 'react-icons/ai';
 import { FiShoppingBag, FiEdit, FiPieChart, FiBarChart, FiCreditCard, FiStar, FiShoppingCart } from 'react-icons/fi';
 import { BsKanban, BsBarChart, BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft } from 'react-icons/bs';
-import { BiColorFill } from 'react-icons/bi';
+import { BiColorFill, BiRupee } from 'react-icons/bi';
 import { IoMdContacts } from 'react-icons/io';
 import { RiContactsLine, RiStockLine } from 'react-icons/ri';
 import { MdOutlineSupervisorAccount } from 'react-icons/md';
@@ -21,7 +21,7 @@ import product4 from './product4.jpg';
 import product5 from './product5.jpg';
 import product6 from './product6.jpg';
 import product7 from './product7.jpg';
-import product8 from './product8.jpg';
+// import product8 from './product8.jpg';
 
 export const gridOrderImage = (props) => (
   <div>
@@ -656,7 +656,7 @@ export const earningData = [
 export const recentTransactions = [
   {
     icon: <BsCurrencyDollar />,
-    amount: '+$350',
+    amount: '+₹350',
     title: 'Paypal Transfer',
     desc: 'Money Added',
     iconColor: '#03C9D7',
@@ -665,7 +665,7 @@ export const recentTransactions = [
   },
   {
     icon: <BsShield />,
-    amount: '-$560',
+    amount: '-₹560',
     desc: 'Bill Payment',
     title: 'Wallet',
     iconColor: 'rgb(0, 194, 146)',
@@ -674,7 +674,7 @@ export const recentTransactions = [
   },
   {
     icon: <FiCreditCard />,
-    amount: '+$350',
+    amount: '+₹350',
     title: 'Credit Card',
     desc: 'Money reversed',
     iconColor: 'rgb(255, 244, 229)',
@@ -684,7 +684,7 @@ export const recentTransactions = [
   },
   {
     icon: <TiTick />,
-    amount: '+$350',
+    amount: '+₹350',
     title: 'Bank Transfer',
     desc: 'Money Added',
 
@@ -694,7 +694,7 @@ export const recentTransactions = [
   },
   {
     icon: <BsCurrencyDollar />,
-    amount: '-$50',
+    amount: '-₹50',
     percentage: '+38%',
     title: 'Refund',
     desc: 'Payment Sent',
@@ -707,25 +707,25 @@ export const recentTransactions = [
 export const weeklyStats = [
   {
     icon: <FiShoppingCart />,
-    amount: '-$560',
+    amount: '-₹560',
     title: 'Top Sales',
-    desc: 'Johnathan Doe',
+    desc: 'Dinesh Shinde',
     iconBg: '#FB9678',
     pcColor: 'red-600',
   },
   {
     icon: <FiStar />,
-    amount: '-$560',
+    amount: '-₹560',
     title: 'Best Seller',
-    desc: 'MaterialPro Admin',
+    desc: 'Kunal Mohite',
     iconBg: 'rgb(254, 201, 15)',
     pcColor: 'red-600',
   },
   {
     icon: <BsChatLeft />,
-    amount: '+$560',
+    amount: '+₹560',
     title: 'Most Commented',
-    desc: 'Ample Admin',
+    desc: 'Sarvesh Naik',
     iconBg: '#00C292',
     pcColor: 'green-600',
   },
@@ -739,7 +739,7 @@ export const productsPerformance = [
     desc: 'Ice-Cream, Milk, Powder',
     rating: 'Good',
     itemSold: '65%',
-    earningAmount: '$546,000',
+    earningAmount: '₹546,000',
   },
   {
     image:
@@ -748,7 +748,7 @@ export const productsPerformance = [
     desc: 'Market, Mall',
     rating: 'Excellent',
     itemSold: '98%',
-    earningAmount: '$780,000',
+    earningAmount: '₹780,000',
   },
   {
     image:
@@ -757,7 +757,7 @@ export const productsPerformance = [
     desc: 'Chocolate, Yummy',
     rating: 'Average',
     itemSold: '46%',
-    earningAmount: '$457,000',
+    earningAmount: '₹457,000',
   },
   {
     image:
@@ -766,7 +766,7 @@ export const productsPerformance = [
     desc: 'Electric, Wire, Current',
     rating: 'Poor',
     itemSold: '23%',
-    earningAmount: '$123,000',
+    earningAmount: '₹123,000',
   },
 ];
 
@@ -774,25 +774,29 @@ export const medicalproBranding = {
   data: [
     {
       title: 'Due Date',
-      desc: 'Oct 23, 2021',
+      desc: 'Apr 09, 2023',
     },
     {
       title: 'Budget',
-      desc: '$98,500',
+      desc: '₹98,500',
     },
     {
       title: 'Expense',
-      desc: '$63,000',
+      desc: '₹63,000',
     },
   ],
   teams: [
     {
-      name: 'Bootstrap',
+      name: 'TailwindCSS',
       color: 'orange',
     },
     {
-      name: 'Angular',
+      name: 'React',
       color: '#FB9678',
+    },
+    {
+      name: 'ML',
+      color: 'orange',
     },
   ],
   leaders: [
@@ -848,7 +852,7 @@ export const themeColors = [
 
 export const userProfileData = [
   {
-    icon: <BsCurrencyDollar />,
+    icon: <BiRupee />,
     title: 'My Profile',
     desc: 'Account Settings',
     iconColor: '#03C9D7',
@@ -1486,7 +1490,7 @@ export const employeesData = [
     EmployeeID: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1496,7 +1500,7 @@ export const employeesData = [
     EmployeeID: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1506,7 +1510,7 @@ export const employeesData = [
     EmployeeID: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1516,7 +1520,7 @@ export const employeesData = [
     EmployeeID: 4,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1526,7 +1530,7 @@ export const employeesData = [
     EmployeeID: 5,
     Name: 'Omar Darobe',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1536,7 +1540,7 @@ export const employeesData = [
     EmployeeID: 4,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1546,7 +1550,7 @@ export const employeesData = [
     EmployeeID: 5,
     Name: 'Miron Vitold',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1556,7 +1560,7 @@ export const employeesData = [
     EmployeeID: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1567,7 +1571,7 @@ export const employeesData = [
     EmployeeID: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1577,7 +1581,7 @@ export const employeesData = [
     EmployeeID: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1587,7 +1591,7 @@ export const employeesData = [
     EmployeeID: 4,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1597,7 +1601,7 @@ export const employeesData = [
     EmployeeID: 5,
     Name: 'Omar Darobe',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1607,7 +1611,7 @@ export const employeesData = [
     EmployeeID: 4,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1617,7 +1621,7 @@ export const employeesData = [
     EmployeeID: 5,
     Name: 'Miron Vitold',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1627,7 +1631,7 @@ export const employeesData = [
     EmployeeID: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1637,7 +1641,7 @@ export const employeesData = [
     EmployeeID: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1647,7 +1651,7 @@ export const employeesData = [
     EmployeeID: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1657,7 +1661,7 @@ export const employeesData = [
     EmployeeID: 4,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1667,7 +1671,7 @@ export const employeesData = [
     EmployeeID: 5,
     Name: 'Omar Darobe',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1677,7 +1681,7 @@ export const employeesData = [
     EmployeeID: 4,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1687,7 +1691,7 @@ export const employeesData = [
     EmployeeID: 5,
     Name: 'Miron Vitold',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1697,7 +1701,7 @@ export const employeesData = [
     EmployeeID: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1708,7 +1712,7 @@ export const employeesData = [
     EmployeeID: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1718,7 +1722,7 @@ export const employeesData = [
     EmployeeID: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1728,7 +1732,7 @@ export const employeesData = [
     EmployeeID: 4,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1738,7 +1742,7 @@ export const employeesData = [
     EmployeeID: 5,
     Name: 'Omar Darobe',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1748,7 +1752,7 @@ export const employeesData = [
     EmployeeID: 4,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1758,7 +1762,7 @@ export const employeesData = [
     EmployeeID: 5,
     Name: 'Miron Vitold',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1768,7 +1772,7 @@ export const employeesData = [
     EmployeeID: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1779,7 +1783,7 @@ export const employeesData = [
     EmployeeID: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1789,7 +1793,7 @@ export const employeesData = [
     EmployeeID: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1799,7 +1803,7 @@ export const employeesData = [
     EmployeeID: 4,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1809,7 +1813,7 @@ export const employeesData = [
     EmployeeID: 5,
     Name: 'Omar Darobe',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1819,7 +1823,7 @@ export const employeesData = [
     EmployeeID: 4,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1829,7 +1833,7 @@ export const employeesData = [
     EmployeeID: 5,
     Name: 'Miron Vitold',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1839,7 +1843,7 @@ export const employeesData = [
     EmployeeID: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1850,7 +1854,7 @@ export const employeesData = [
     EmployeeID: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1860,7 +1864,7 @@ export const employeesData = [
     EmployeeID: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1870,7 +1874,7 @@ export const employeesData = [
     EmployeeID: 4,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1880,7 +1884,7 @@ export const employeesData = [
     EmployeeID: 5,
     Name: 'Omar Darobe',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1890,7 +1894,7 @@ export const employeesData = [
     EmployeeID: 4,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1900,7 +1904,7 @@ export const employeesData = [
     EmployeeID: 5,
     Name: 'Miron Vitold',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1910,7 +1914,7 @@ export const employeesData = [
     EmployeeID: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1921,7 +1925,7 @@ export const employeesData = [
     EmployeeID: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1931,7 +1935,7 @@ export const employeesData = [
     EmployeeID: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1941,7 +1945,7 @@ export const employeesData = [
     EmployeeID: 4,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1951,7 +1955,7 @@ export const employeesData = [
     EmployeeID: 5,
     Name: 'Omar Darobe',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1961,7 +1965,7 @@ export const employeesData = [
     EmployeeID: 4,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1971,7 +1975,7 @@ export const employeesData = [
     EmployeeID: 5,
     Name: 'Miron Vitold',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1981,7 +1985,7 @@ export const employeesData = [
     EmployeeID: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -1992,7 +1996,7 @@ export const employeesData = [
     EmployeeID: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -2002,7 +2006,7 @@ export const employeesData = [
     EmployeeID: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -2012,7 +2016,7 @@ export const employeesData = [
     EmployeeID: 4,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -2022,7 +2026,7 @@ export const employeesData = [
     EmployeeID: 5,
     Name: 'Omar Darobe',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -2032,7 +2036,7 @@ export const employeesData = [
     EmployeeID: 4,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -2042,7 +2046,7 @@ export const employeesData = [
     EmployeeID: 5,
     Name: 'Miron Vitold',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -2052,7 +2056,7 @@ export const employeesData = [
     EmployeeID: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -2063,7 +2067,7 @@ export const employeesData = [
     EmployeeID: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -2073,7 +2077,7 @@ export const employeesData = [
     EmployeeID: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -2083,7 +2087,7 @@ export const employeesData = [
     EmployeeID: 4,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -2093,7 +2097,7 @@ export const employeesData = [
     EmployeeID: 5,
     Name: 'Omar Darobe',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -2103,7 +2107,7 @@ export const employeesData = [
     EmployeeID: 4,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -2113,7 +2117,7 @@ export const employeesData = [
     EmployeeID: 5,
     Name: 'Miron Vitold',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2023',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage:
@@ -2849,192 +2853,192 @@ export const scheduleData = [
     Id: 1,
     Subject: 'Explosion of Betelgeuse Star',
     Location: 'Space Center USA',
-    StartTime: '2021-01-10T04:00:00.000Z',
-    EndTime: '2021-01-10T05:30:00.000Z',
+    StartTime: '2023-01-10T04:00:00.000Z',
+    EndTime: '2023-01-10T05:30:00.000Z',
     CategoryColor: '#1aaa55',
   },
   {
     Id: 2,
     Subject: 'Thule Air Crash Report',
     Location: 'Newyork City',
-    StartTime: '2021-01-11T06:30:00.000Z',
-    EndTime: '2021-01-11T08:30:00.000Z',
+    StartTime: '2023-01-11T06:30:00.000Z',
+    EndTime: '2023-01-11T08:30:00.000Z',
     CategoryColor: '#357cd2',
   },
   {
     Id: 3,
     Subject: 'Blue Moon Eclipse',
     Location: 'Space Center USA',
-    StartTime: '2021-01-12T04:00:00.000Z',
-    EndTime: '2021-01-12T05:30:00.000Z',
+    StartTime: '2023-01-12T04:00:00.000Z',
+    EndTime: '2023-01-12T05:30:00.000Z',
     CategoryColor: '#7fa900',
   },
   {
     Id: 4,
-    Subject: 'Meteor Showers in 2021',
+    Subject: 'Meteor Showers in 2023',
     Location: 'Space Center USA',
-    StartTime: '2021-01-13T07:30:00.000Z',
-    EndTime: '2021-01-13T09:00:00.000Z',
+    StartTime: '2023-01-13T07:30:00.000Z',
+    EndTime: '2023-01-13T09:00:00.000Z',
     CategoryColor: '#ea7a57',
   },
   {
     Id: 5,
     Subject: 'Milky Way as Melting pot',
     Location: 'Space Center USA',
-    StartTime: '2021-01-14T06:30:00.000Z',
-    EndTime: '2021-01-14T08:30:00.000Z',
+    StartTime: '2023-01-14T06:30:00.000Z',
+    EndTime: '2023-01-14T08:30:00.000Z',
     CategoryColor: '#00bdae',
   },
   {
     Id: 6,
     Subject: 'Mysteries of Bermuda Triangle',
     Location: 'Bermuda',
-    StartTime: '2021-01-14T04:00:00.000Z',
-    EndTime: '2021-01-14T05:30:00.000Z',
+    StartTime: '2023-01-14T04:00:00.000Z',
+    EndTime: '2023-01-14T05:30:00.000Z',
     CategoryColor: '#f57f17',
   },
   {
     Id: 7,
     Subject: 'Glaciers and Snowflakes',
     Location: 'Himalayas',
-    StartTime: '2021-01-15T05:30:00.000Z',
-    EndTime: '2021-01-15T07:00:00.000Z',
+    StartTime: '2023-01-15T05:30:00.000Z',
+    EndTime: '2023-01-15T07:00:00.000Z',
     CategoryColor: '#1aaa55',
   },
   {
     Id: 8,
     Subject: 'Life on Mars',
     Location: 'Space Center USA',
-    StartTime: '2021-01-16T03:30:00.000Z',
-    EndTime: '2021-01-16T04:30:00.000Z',
+    StartTime: '2023-01-16T03:30:00.000Z',
+    EndTime: '2023-01-16T04:30:00.000Z',
     CategoryColor: '#357cd2',
   },
   {
     Id: 9,
     Subject: 'Alien Civilization',
     Location: 'Space Center USA',
-    StartTime: '2021-01-18T05:30:00.000Z',
-    EndTime: '2021-01-18T07:30:00.000Z',
+    StartTime: '2023-01-18T05:30:00.000Z',
+    EndTime: '2023-01-18T07:30:00.000Z',
     CategoryColor: '#7fa900',
   },
   {
     Id: 10,
     Subject: 'Wildlife Galleries',
     Location: 'Africa',
-    StartTime: '2021-01-20T05:30:00.000Z',
-    EndTime: '2021-01-20T07:30:00.000Z',
+    StartTime: '2023-01-20T05:30:00.000Z',
+    EndTime: '2023-01-20T07:30:00.000Z',
     CategoryColor: '#ea7a57',
   },
   {
     Id: 11,
-    Subject: 'Best Photography 2021',
+    Subject: 'Best Photography 2023',
     Location: 'London',
-    StartTime: '2021-01-21T04:00:00.000Z',
-    EndTime: '2021-01-21T05:30:00.000Z',
+    StartTime: '2023-01-21T04:00:00.000Z',
+    EndTime: '2023-01-21T05:30:00.000Z',
     CategoryColor: '#00bdae',
   },
   {
     Id: 12,
     Subject: 'Smarter Puppies',
     Location: 'Sweden',
-    StartTime: '2021-01-08T04:30:00.000Z',
-    EndTime: '2021-01-08T06:00:00.000Z',
+    StartTime: '2023-01-08T04:30:00.000Z',
+    EndTime: '2023-01-08T06:00:00.000Z',
     CategoryColor: '#f57f17',
   },
   {
     Id: 13,
     Subject: 'Myths of Andromeda Galaxy',
     Location: 'Space Center USA',
-    StartTime: '2021-01-06T05:00:00.000Z',
-    EndTime: '2021-01-06T07:00:00.000Z',
+    StartTime: '2023-01-06T05:00:00.000Z',
+    EndTime: '2023-01-06T07:00:00.000Z',
     CategoryColor: '#1aaa55',
   },
   {
     Id: 14,
     Subject: 'Aliens vs Humans',
     Location: 'Research Center of USA',
-    StartTime: '2021-01-05T04:30:00.000Z',
-    EndTime: '2021-01-05T06:00:00.000Z',
+    StartTime: '2023-01-05T04:30:00.000Z',
+    EndTime: '2023-01-05T06:00:00.000Z',
     CategoryColor: '#357cd2',
   },
   {
     Id: 15,
     Subject: 'Facts of Humming Birds',
     Location: 'California',
-    StartTime: '2021-01-19T04:00:00.000Z',
-    EndTime: '2021-01-19T05:30:00.000Z',
+    StartTime: '2023-01-19T04:00:00.000Z',
+    EndTime: '2023-01-19T05:30:00.000Z',
     CategoryColor: '#7fa900',
   },
   {
     Id: 16,
     Subject: 'Sky Gazers',
     Location: 'Alaska',
-    StartTime: '2021-01-22T05:30:00.000Z',
-    EndTime: '2021-01-22T07:30:00.000Z',
+    StartTime: '2023-01-22T05:30:00.000Z',
+    EndTime: '2023-01-22T07:30:00.000Z',
     CategoryColor: '#ea7a57',
   },
   {
     Id: 17,
     Subject: 'The Cycle of Seasons',
     Location: 'Research Center of USA',
-    StartTime: '2021-01-11T00:00:00.000Z',
-    EndTime: '2021-01-11T02:00:00.000Z',
+    StartTime: '2023-01-11T00:00:00.000Z',
+    EndTime: '2023-01-11T02:00:00.000Z',
     CategoryColor: '#00bdae',
   },
   {
     Id: 18,
     Subject: 'Space Galaxies and Planets',
     Location: 'Space Center USA',
-    StartTime: '2021-01-11T11:30:00.000Z',
-    EndTime: '2021-01-11T13:00:00.000Z',
+    StartTime: '2023-01-11T11:30:00.000Z',
+    EndTime: '2023-01-11T13:00:00.000Z',
     CategoryColor: '#f57f17',
   },
   {
     Id: 19,
     Subject: 'Lifecycle of Bumblebee',
     Location: 'San Fransisco',
-    StartTime: '2021-01-14T00:30:00.000Z',
-    EndTime: '2021-01-14T02:00:00.000Z',
+    StartTime: '2023-01-14T00:30:00.000Z',
+    EndTime: '2023-01-14T02:00:00.000Z',
     CategoryColor: '#7fa900',
   },
   {
     Id: 20,
     Subject: 'Alien Civilization',
     Location: 'Space Center USA',
-    StartTime: '2021-01-14T10:30:00.000Z',
-    EndTime: '2021-01-14T12:30:00.000Z',
+    StartTime: '2023-01-14T10:30:00.000Z',
+    EndTime: '2023-01-14T12:30:00.000Z',
     CategoryColor: '#ea7a57',
   },
   {
     Id: 21,
     Subject: 'Alien Civilization',
     Location: 'Space Center USA',
-    StartTime: '2021-01-10T08:30:00.000Z',
-    EndTime: '2021-01-10T10:30:00.000Z',
+    StartTime: '2023-01-10T08:30:00.000Z',
+    EndTime: '2023-01-10T10:30:00.000Z',
     CategoryColor: '#ea7a57',
   },
   {
     Id: 22,
     Subject: 'The Cycle of Seasons',
     Location: 'Research Center of USA',
-    StartTime: '2021-01-12T09:00:00.000Z',
-    EndTime: '2021-01-12T10:30:00.000Z',
+    StartTime: '2023-01-12T09:00:00.000Z',
+    EndTime: '2023-01-12T10:30:00.000Z',
     CategoryColor: '#00bdae',
   },
   {
     Id: 23,
     Subject: 'Sky Gazers',
     Location: 'Greenland',
-    StartTime: '2021-01-15T09:00:00.000Z',
-    EndTime: '2021-01-15T10:30:00.000Z',
+    StartTime: '2023-01-15T09:00:00.000Z',
+    EndTime: '2023-01-15T10:30:00.000Z',
     CategoryColor: '#ea7a57',
   },
   {
     Id: 24,
     Subject: 'Facts of Humming Birds',
     Location: 'California',
-    StartTime: '2021-01-16T07:00:00.000Z',
-    EndTime: '2021-01-16T09:00:00.000Z',
+    StartTime: '2023-01-16T07:00:00.000Z',
+    EndTime: '2023-01-16T09:00:00.000Z',
     CategoryColor: '#7fa900',
   },
 ];
@@ -3072,14 +3076,14 @@ export const lineChartData = [
 export const dropdownData = [
   {
     Id: '1',
-    Time: 'March 2021',
+    Time: 'March 2023',
   },
   {
     Id: '2',
-    Time: 'April 2021',
+    Time: 'April 2023',
   }, {
     Id: '3',
-    Time: 'May 2021',
+    Time: 'May 2023',
   },
 ];
 export const SparklineAreaData = [
@@ -3148,10 +3152,10 @@ export const contextMenuItems = [
 ];
 
 export const ecomPieChartData = [
-  { x: '2018', y: 18, text: '35%' },
-  { x: '2019', y: 18, text: '15%' },
-  { x: '2020', y: 18, text: '25%' },
-  { x: '2021', y: 18, text: '25%' },
+  { x: '2020', y: 18, text: '35%' },
+  { x: '2021', y: 18, text: '15%' },
+  { x: '2022', y: 18, text: '25%' },
+  { x: '2023', y: 18, text: '25%' },
 ];
 
 export const stackedChartData = [
